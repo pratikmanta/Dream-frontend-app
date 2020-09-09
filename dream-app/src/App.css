@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Monoton&display=swap');
+
+.title-text {
+  color: white;
+  margin: 50px auto 30px auto;
+  font-family: 'Monoton', cursive;
+}
+.box-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.box1 {
+  display: flex;
+  border-top-left-radius: 30%;
+  justify-content: center;
+  align-items: center;
+  background: rgba(79, 79, 100, 0.4);
+  color: #fff;
+  padding: 20px;
+  font-family: 'Leckerli One', cursive;
+  width: 40%;
+}
+.dream-text {
+  transform: rotate(-30deg);
+  margin-left: 20px;
+}
+.box2 {
+  background-color: #fff;
+  padding: 20px;
+  width: 60%;
+}
+.button {
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+  float: right;
+  background-color: blue;
+  border-radius: 40px;
+  color: #fff;
+  width: 150px;
+  transition: all ease-in 0.2s;
+}
+
+th {
+  font-family: 'Monoton', cursive;
+}
+.infi-scroll {
+  justify-content: center;
+  height:350px;
+  font-family: 'Leckerli One', cursive;
+}
+.button:hover {
+  transform: scale(1.1);
+  background-color: black;
+  cursor: pointer;
+}
+
+
+
+
+
